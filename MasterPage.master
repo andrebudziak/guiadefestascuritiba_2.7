@@ -1,0 +1,286 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guia de Festas Curitiba</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="index,follow" />
+<meta name="url" content="www.guiadefestascuritiba.com.br">
+<meta name="description" content="Tudo para sua festa desde a locação do espaço até a animação, materias para festa, e tudo que voce precisa.">
+<meta name="keywords" content="15 Anos,Adereços para Festas,Animação / Recreação,Artigos para Festa,Automóveis para Eventos,Bandas e Músicos,
+                                        Bartender,Batizados,Bem-Casados,Biscuit,Bodas,Bolos Artísticos,Bolos/Doces/Salgados,Brinquedos,Buffet em Domicílio,
+                                        Buffet Infantil,Buffet Social,Café Colonial,Caricaturas,Carrinhos Alimentação,Casamentos,Cenários,Cerimonial,
+                                        Cestas Presente,Chá de Bebê,Chá de Lingerie,Chácara,Churrasco,Climatização ,Clubes,Coffe Break,Confraternizações,
+                                        Congelados,Convites/Lembrancinhas,Crepe Frances,Cupcakes,Dança para Eventos,Decoração-Ambientação,Decoração-Balão,
+                                        Decoração-Confecção,Decoração-Tema Infantil,Delivery,Designer de Eventos,Disk Carne,Distribuidoras,Equipamentos para Festa,
+                                        Especial Natal,Eventos Empresariais,Fantasias,Festa Escola,Festa Infantil,Floricultura,Formaturas,Fotografia/Filmagem,
+                                        Garçom,Kit Festa,Locação de Mesas/Cadeiras,Lua de Mel,Mágicos,Massas em Domicilio,Material para Festa,Mesas Especiais,
+                                        Mobiliário para Eventos,Moda Presente,Noivados,Organização de Eventos,Palhaços,Panquecas em Domicilio,Parques,
+                                        Personalização,Prestadores de Serviços,Produção de Eventos,Promotoras/Divulgadoras,Queijos & Vinhos,Recepcionistas e Hostess,
+                                        Retrospectiva Digital,Rodizio Pizza (Domicilio),Salão de Beleza,Salão de Festas,Sanduíches,Som/Iluminação/Djs,
+                                        Sopas em Domicilio,Teatro na Empresa,Telegrama/Serenata,Topo para Bolos,Visitas Papai Noel">
+
+<meta name="autor" content="Andre Budziak Neto">
+<meta name="revisit-after" content="1">
+<meta http-equiv="imagetoolbar" content="no">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstarp-css -->
+<link href="http://www.guiactbatemp.comercial.ws/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstarp-css -->
+<!-- css -->
+<link rel="stylesheet" href="http://www.guiactbatemp.comercial.ws/css/style.css" type="text/css" media="all" />
+<!--// css -->
+<script src="http://www.guiactbatemp.comercial.ws/Script/jquery.min.js"></script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+<!--/fonts-->
+<!-- dropdown -->
+<script src="http://www.guiactbatemp.comercial.ws/Script/jquery.easydropdown.js"></script>
+<link href="http://www.guiactbatemp.comercial.ws/css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="http://www.guiactbatemp.comercial.ws/Script/scripts.js" type="text/javascript"></script>
+<script src="http://www.guiactbatemp.comercial.ws/Script/jquery-1.11.2.min.js"></script>
+<!--js-->
+<!--/js-->
+<script src="http://www.guiactbatemp.comercial.ws/Script/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+		        $(document).ready(function () {
+		            $('#horizontalTab').easyResponsiveTabs({
+		                type: 'default', //Types: default, vertical, accordion           
+		                width: 'auto', //auto or any width like 600px
+		                fit: true   // 100% fit in a container
+		            });
+		        });
+			   </script>	
+<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="http://www.guiactbatemp.comercial.ws/Script/move-top.js"></script>
+		<script type="text/javascript" src="http://www.guiactbatemp.comercial.ws/Script/easing.js"></script>
+		<script type="text/javascript">
+		    jQuery(document).ready(function ($) {
+		        $(".scroll").click(function (event) {
+		            event.preventDefault();
+		            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+		        });
+		    });
+		</script>
+
+
+</head>
+
+<body>
+   <asp:ContentPlaceHolder id="HeadContent" runat="server">
+   </asp:ContentPlaceHolder>
+   
+
+	<!-- header -->
+	<div class="header">
+		<!-- container -->
+		<div class="container">
+			<!-- header-top -->
+			<div class="header-top">
+				<div class="header-logo">
+					<a href="Default.aspx"><img src="http://www.guiactbatemp.comercial.ws/images/logo.png" alt="" /></a>
+				</div>
+				<div class="header-right">
+					<ul>
+						<li class="phone">(41) 3205-7561</li>
+						<li class="mail"><a href="mailto:comercial@temnarede.com.br">comercial@temnarede.com.br</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //header-top -->
+			<div class="top-nav">
+				<span class="menu"><img src="images/menu.png" alt=""></span>
+				<ul class="nav">
+                  <li class="dropdown1"><a href="Default.aspx">Home</a></li>
+                  <li><a href="#">Locais</a>
+                    <ul class="dropdown2">
+                        <asp:Label ID="lblLocal" runat="server" Text="Label"></asp:Label>
+                    </ul>
+                  </li>
+                  <li class="dropdown1"><a href="#">Decoração</a>
+                      <ul class="dropdown2">
+                          <asp:Label ID="lblDecoracao" runat="server" Text="Label"></asp:Label>
+                      </ul>
+                  </li>
+                  <li class="dropdown1"><a href="#">Alimentação</a>
+                      <ul class="dropdown2">
+                          <asp:Label ID="lblAlimentacao" runat="server" Text="Label"></asp:Label>
+                      </ul>
+                  </li>
+                  <li class="dropdown1"><a href="#">Diversão</a>
+                      <ul class="dropdown2">
+                          <asp:Label ID="lblDiversao" runat="server" Text="Label"></asp:Label>
+                      </ul>
+                  </li>
+                  <li class="dropdown1"><a href="#">Serviços</a>
+                      <ul class="dropdown2">
+                          <asp:Label ID="lblServico" runat="server" Text="Label"></asp:Label>
+                      </ul>
+                  </li>
+                  <li class="dropdown1"><a href="#">Tipos</a>
+                      <ul class="dropdown2">
+                          <asp:Label ID="lblTipo" runat="server" Text="Label"></asp:Label>
+                      </ul>
+                  </li>
+                </ul>
+			</div>
+
+			<div class="search">
+					<input type="text" value="Search..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search...';}" required="">
+			</div>
+			<div class="clearfix"> </div>
+			<!-- script-for-menu -->
+		 <script>
+		     $("span.menu").click(function () {
+		         $(" ul.nav").slideToggle("slow", function () {
+		         });
+		     });
+		 </script>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //header -->
+	<!-- banner -->
+	<div class="banner">
+       			<!-- banner Slider starts Here -->
+					<script src="http://www.guiactbatemp.comercial.ws/Script/responsiveslides.min.js"></script>
+					 <script>
+					     // You can also use "$(window).load(function() {"
+					     $(function () {
+					         // Slideshow 4
+					         $("#slider3").responsiveSlides({
+					             auto: true,
+					             pager: true,
+					             nav: false,
+					             speed: 2000,
+					             namespace: "callbacks",
+					             before: function () {
+					                 $('.events').append("<li>before event fired.</li>");
+					             },
+					             after: function () {
+					                 $('.events').append("<li>after event fired.</li>");
+					             }
+					         });
+
+					     });
+					  </script>
+					<!--//End-slider-script -->
+                   <asp:Label ID="lblSlide" runat="server" Text=""></asp:Label>
+	</div>
+	<!-- //banner -->
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-grids">
+                <asp:Label ID="lblBannerLateral" runat="server" Text=""></asp:Label>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- banner-bottom -->
+
+           <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+           </asp:ContentPlaceHolder>
+
+
+	<!-- footer -->
+	<div class="footer">
+		<!-- container -->
+		<div class="container">
+			<div class="col-md-3 stores-grid">
+				<div class="stores">
+					<h3>Our Stores</h3>
+					<ul>
+						<li>Feel free to visit our stores or contact us.</li>
+						<li>1401 South Grand Avenue </li>
+						<li>Los Angeles, CA 90015 </li>
+						<li>(213) 748-2411</li>
+
+						<span>
+						<li class="drive">100 Fairview Drive </li>
+						<li>Franklin, VA 23851</li> 
+						<li>(757) 569-6100 </li>
+						</span>
+					</ul>
+				</div>
+				<div class="social-icons white-icons">
+					<ul>
+						<li><a href="#" class="facebook"></a></li>
+						<li><a href="#" class="twitter"></a></li>
+						<li><a href="#" class="chrome"></a></li>
+						<li><a href="#" class="vimeo"></a></li>
+						<li><a href="#" class="rss"></a></li>
+				</div>
+			</div>
+			<div class="col-md-3 blog">
+				<h3>Blog posts</h3>
+				<a href="#">Justin Bieber confirmed that he is gay.</a>
+				<p>Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit. Donec sed auctor elit.
+				</p>
+				<a href="#">New sexy sport clothes are here!</a>
+				<p>Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit. Donec sed auctor elit.
+				</p>
+				<a href="#">Summer sales are coming!</a>
+				<p>Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit. Donec sed auctor elit.
+				</p>
+			</div>
+			<div class="col-md-3 support">
+				<h3>Support</h3>
+				<div class="support-grids">
+					<div class="support-left">
+						<ul>
+							<li><a href="#">Terms & Conditions</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Payment</a></li>
+							<li><a href="#">Refunds</a></li>
+							<li><a href="#">Track Order</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Privacy & Security</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Corporate Information</a></li>
+						</ul>
+					</div>
+					<div class="support-left support-right">
+						<ul>
+							<li><a href="#">Sizing</a></li>
+							<li><a href="#">Ordering</a></li>
+							<li><a href="#">Shipping</a></li>
+							<li><a href="#">Return Policy</a></li>
+							<li><a href="#">Affiliates</a></li>
+							<li><a href="#">Find A Store </a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Sign Up & Save</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-md-3 contact">
+				<h3>Contact us</h3>
+					<input type="text" value="your e-mail..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'your e-mail...';}" required="">
+					<textarea value="your text...:" onfocus="if(this.value == 'your text...') this.value='';" onblur="if(this.value == '') this.value='your text...';">your text...</textarea>
+					<input type="submit" value="Send MESSAGE">
+			</div>
+			<div class="clearfix"> </div>
+			<div class="copyright">
+				<p>Copyright &copy; 2015 Guia de Festas Curitiba. All Rights Reserved.</p>
+			
+		</div>
+		<!-- // container -->
+	</div>
+	<!-- //footer -->
+
+   
+</body>
+</html>
